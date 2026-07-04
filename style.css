@@ -353,15 +353,18 @@ background:rgba(255,255,255,.08);
 
 display:flex;
 
-justify-content:center;
+justify-content:flex-end;
 
+align-items:center;
+   
 }
 
 .hero-phone img{
 
-width:360px;
+width:520px;
+max-width:100%;
 
-border-radius:38px;
+border-radius:0;
 
 box-shadow:
 
