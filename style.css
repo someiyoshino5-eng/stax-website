@@ -74,7 +74,7 @@ color:inherit;
 
 .container{
 
-width:min(1180px,92%);
+width:min(1600px,94%);
 
 margin:auto;
 
@@ -243,15 +243,10 @@ top:-120px;
 }
 
 .hero-grid{
-
-display:grid;
-
-grid-template-columns:1fr 1fr;
-
-gap:80px;
-
-align-items:center;
-
+    display:grid;
+    grid-template-columns:0.95fr 1.05fr;
+    gap:40px;
+    align-items:center;
 }
 
 .eyebrow{
