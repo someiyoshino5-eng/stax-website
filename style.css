@@ -99,9 +99,19 @@ p  { color: var(--text2); }
   height: 100%;
 }
 
+.logo {
+  flex-shrink: 0;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  min-width: 220px;
+}
+
 .logo img {
-  height: 80px;
+  height: 28px;
   width: auto;
+  transform: scale(3.2);
+  transform-origin: left center;
 }
 
 nav {
