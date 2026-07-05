@@ -104,15 +104,13 @@ p  { color: var(--text2); }
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 4px 0;
+  padding: 10px 0;
 }
 
 .logo img {
   height: 100%;
   width: auto;
   max-width: none;
-  object-fit: contain;
-  object-position: left center;
 }
 
 nav {
@@ -941,7 +939,7 @@ footer {
   gap: 48px;
   margin-bottom: 56px;
 }
-.footer-logo { height: 96px; margin-bottom: 10px; }
+.footer-logo { height: 72px; margin-bottom: 10px; max-width: none; }
 .footer-tagline { margin-top: 4px; }
 .footer-tagline {
   font-size: 15px;
