@@ -101,17 +101,18 @@ p  { color: var(--text2); }
 
 .logo {
   flex-shrink: 0;
-  overflow: visible;
   display: flex;
   align-items: center;
-  min-width: 220px;
+  height: 100%;
+  padding: 4px 0;
 }
 
 .logo img {
-  height: 28px;
+  height: 100%;
   width: auto;
-  transform: scale(3.2);
-  transform-origin: left center;
+  max-width: none;
+  object-fit: contain;
+  object-position: left center;
 }
 
 nav {
