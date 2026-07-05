@@ -16,7 +16,7 @@
   --grad-end:    #00e5c0;
   --radius:      20px;
   --shadow:      0 24px 64px rgba(0,0,0,.55);
-  --header-h:    72px;
+  --header-h:    96px;
 }
 
 /* ---------- Reset ---------- */
@@ -100,7 +100,7 @@ p  { color: var(--text2); }
 }
 
 .logo img {
-  height: 56px;
+  height: 80px;
   width: auto;
 }
 
@@ -930,7 +930,8 @@ footer {
   gap: 48px;
   margin-bottom: 56px;
 }
-.footer-logo { height: 52px; margin-bottom: 16px; }
+.footer-logo { height: 96px; margin-bottom: 10px; }
+.footer-tagline { margin-top: 4px; }
 .footer-tagline {
   font-size: 15px;
   font-weight: 700;
