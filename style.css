@@ -937,7 +937,7 @@ footer {
   gap: 48px;
   margin-bottom: 56px;
 }
-.footer-logo { height: 72px; margin-bottom: 10px; max-width: none; }
+.footer-logo { height: 100px; margin-bottom: 10px; max-width: none; }
 .footer-tagline { margin-top: 4px; }
 .footer-tagline {
   font-size: 15px;
