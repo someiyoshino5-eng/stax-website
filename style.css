@@ -113,7 +113,7 @@ p  { color: var(--text2); }
 }
 @media (max-width: 768px) {
     .logo img {
-        height: 48px;
+        height: 20px;
     }
 }
 nav {
