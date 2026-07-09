@@ -106,7 +106,7 @@ p  { color: var(--text2); }
 }
 
 .logo img {
-    height: 120px;
+    height: 90px;
     width: auto;
     display: block;
 }
