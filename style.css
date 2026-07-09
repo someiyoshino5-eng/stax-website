@@ -481,7 +481,7 @@ nav a:hover, nav a.active { color: #fff; }
   border: 1px solid rgba(78,232,212,.25);
 }
 
-.product-icon-wrap { margin-bottom: -12px; }
+.product-icon-wrap { margin-bottom: -50px; }
 .product-app-icon  { height: 200px; width: auto; border-radius: 18px; }
 
 .product-name {
