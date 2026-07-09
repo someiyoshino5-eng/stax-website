@@ -109,7 +109,7 @@ p  { color: var(--text2); }
     height: 70px;
     width: auto;
     display: block;
-    transform: translateX(-6px);
+    transform: translateX(-20px);
 }
 
 nav {
