@@ -1,8 +1,10 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? '/stax-website/' : '/',
   build: {
+    outDir: 'docs',
     rollupOptions: {
       input: {
         main:    resolve(__dirname, 'index.html'),
@@ -12,4 +14,4 @@ export default defineConfig({
       },
     },
   },
-});
+}));
