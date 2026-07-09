@@ -482,7 +482,7 @@ nav a:hover, nav a.active { color: #fff; }
 }
 
 .product-icon-wrap { margin-bottom: 16px; }
-.product-app-icon  { height: 200px; width: auto; border-radius: 18px; }
+.product-app-icon  { height: 200px; width: auto; border-radius: 300px; }
 
 .product-name {
   font-size: 36px;
