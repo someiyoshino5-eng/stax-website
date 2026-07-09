@@ -111,7 +111,11 @@ p  { color: var(--text2); }
     display: block;
     transform: translateX(-6px);
 }
-
+@media (max-width: 768px) {
+    .logo img {
+        height: 48px;
+    }
+}
 nav {
   display: flex;
   align-items: center;
