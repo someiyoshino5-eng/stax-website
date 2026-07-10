@@ -1240,3 +1240,34 @@ nav a.active { color: #fff; }
   .form-row { grid-template-columns: 1fr; }
   .contact-info-grid { grid-template-columns: 1fr; }
 }
+/* ===== About Logo ===== */
+
+.about-logo{
+  display:block;
+  width:180px;
+  margin:0 auto 40px;
+  filter:drop-shadow(0 0 18px rgba(39,199,255,.22));
+}
+
+.about-headline{
+  text-align:left;
+}
+
+.about-body{
+  display:flex;
+  justify-content:space-between;
+  gap:80px;
+  align-items:flex-start;
+}
+
+@media (max-width:900px){
+  .about-logo{
+    width:150px;
+    margin:0 auto 30px;
+  }
+
+  .about-body{
+    flex-direction:column;
+    gap:40px;
+  }
+}
