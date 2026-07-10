@@ -1240,8 +1240,3 @@ nav a.active { color: #fff; }
   .form-row { grid-template-columns: 1fr; }
   .contact-info-grid { grid-template-columns: 1fr; }
 }
-.about-logo{
-  display:block;
-  width:220px;
-  margin:0 auto 40px;
-}
