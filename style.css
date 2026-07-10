@@ -1241,7 +1241,7 @@ nav a.active { color: #fff; }
   .contact-info-grid { grid-template-columns: 1fr; }
 }
 .about-logo{
-  display:block;
-  width:330px;
-  margin:0 auto 40px;
+    display:block;
+    width:330px;
+    margin:0 0 40px -40px;
 }
