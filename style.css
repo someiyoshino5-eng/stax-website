@@ -36,7 +36,7 @@ ul { list-style: none; }
 
 /* ---------- Layout helpers ---------- */
 .container {
-  width: min(1280px, 92%);
+  width: min(1600px, 94%);
   margin: auto;
 }
 .section { padding: 120px 0; }
