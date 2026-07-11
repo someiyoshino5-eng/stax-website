@@ -96,3 +96,34 @@ if (hamburger && nav) {
 }
 
 console.log("Stax Official Website Loaded");
+const form = document.getElementById("contact-form");
+
+if (form) {
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const button = form.querySelector("button");
+    const originalText = button.innerHTML;
+
+    button.disabled = true;
+    button.innerHTML = "送信中...";
+
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: new FormData(form),
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    if (response.ok) {
+      alert("お問い合わせありがとうございました。");
+      form.reset();
+    } else {
+      alert("送信に失敗しました。");
+    }
+
+    button.disabled = false;
+    button.innerHTML = originalText;
+  });
+}
