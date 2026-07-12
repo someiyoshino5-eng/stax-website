@@ -117,7 +117,7 @@ if (form) {
     });
 
     if (response.ok) {
-      alert("お問い合わせありがとうございました。");
+      document.getElementById("successModal").classList.add("show");
       form.reset();
     } else {
       alert("送信に失敗しました。");
