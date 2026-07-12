@@ -127,3 +127,15 @@ if (form) {
     button.innerHTML = originalText;
   });
 }
+const modal = document.getElementById("successModal");
+
+if (modal) {
+  modal.addEventListener("click", (e) => {
+    if (
+      e.target.id === "successModal" ||
+      e.target.classList.contains("close-success")
+    ) {
+      modal.classList.remove("show");
+    }
+  });
+}
